@@ -12,27 +12,30 @@ The dataset for this project is sourced from IBM's synthetic credit card data.
 
 **Exploratory data analysis:**
 
+** Data Visualization **
+
+
 
 # Models Evaluation and Comparison
 
 **Random Forest:**
 
-Random Forest was tested, and the optimal hyperparameters identified were criterion: entropy, max_depth: 40, max_features: sqrt, min_samples_leaf: 2, min_samples_split: 5, and n_estimators: 200. The highest ROC score obtained was 0.92.
+Random Forest was tested, and the optimal hyperparameters identified were criterion: entropy, max_depth: 40, max_features: sqrt, min_samples_leaf: 2, min_samples_split: 5, and n_estimators: 200. The highest ROC AUC score obtained was 0.92.
 
 **Logistic Regression:**
 
-Logistic Regression was experimented with, and the optimal hyperparameters identified were C: 29.76, max_iter: 100, and penalty: l2. The highest ROC score obtained was 0.86.
+Logistic Regression was experimented with, and the optimal hyperparameters identified were C: 29.76, max_iter: 100, and penalty: l2. The highest ROC AUC score obtained was 0.86.
 
 **Support Vector Machines:**
 
-Support Vector Machines were experimented with, and the optimal hyperparameters identified were C: 0.1, degree: 0, gamma: 0.1, and kernel: linear. The highest ROC score achieved was 0.82.
+Support Vector Machines were experimented with, and the optimal hyperparameters identified were C: 0.1, degree: 0, gamma: 0.1, and kernel: linear. The highest ROC AUC score achieved was 0.82.
 
 **Artificial Neural Network:**
 
-Ultimately, the Artificial Neural Network with 100 hidden layers utilizing ReLU activation, one output layer employing Sigmoid activation, 20 epochs, a batch size of 10, and the Adam optimizer surpassed all alternative models, achieving the highest ROC score of 0.99.
+Ultimately, the Artificial Neural Network with 100 hidden layers utilizing ReLU activation, one output layer employing Sigmoid activation, 20 epochs, a batch size of 10, and the Adam optimizer surpassed all alternative models, achieving the highest ROC AUC score of 0.99.
 
 
-| MODEL | Hyper Parameters | ROC Score |
+| MODEL | Hyper Parameters |  Score |
 |:---:|:---:|:---:|
 | Logistic Regression | C: 29.76, max_iter: 100, penalty: l2 | 0.86 |
 | Support Vector Machines | C: 0.1, degree: 0, gamma: 0.1, kernel: linear | 0.82 |
@@ -41,7 +44,7 @@ Ultimately, the Artificial Neural Network with 100 hidden layers utilizing ReLU 
 
 # Summary of Findings
 
-Among the conventional machine learning models, Random Forest exhibited the strongest performance with a ROC score of 0.92. Nevertheless, the artificial neural network significantly outperformed it, achieving a notably higher score of 0.99. Notably, Keras tuner wasn't employed to refine the hyperparameters, which could have potentially optimized factors such as the number of neurons, epochs, and batch size even further.
+Among the conventional machine learning models, Random Forest exhibited the strongest performance with an ROC AUC score of 0.92. Nevertheless, the artificial neural network significantly outperformed it, achieving a notably higher score of 0.99. Notably, the Keras tuner wasn't employed to refine the hyperparameters, which could have potentially optimized factors such as the number of neurons, epochs, and batch size even further.
 
 # Citations and References:
  
