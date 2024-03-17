@@ -14,7 +14,9 @@ The dataset for this project is sourced from IBM's synthetic credit card data.
 
 ** Data Visualization **
 
+![Types of Transactions](https://github.com/maskbit/creditcard-fraud-detection/blob/main/Images/ChipSwipeOnlineTransactions.png)
 
+![Transactions by State](https://github.com/maskbit/creditcard-fraud-detection/blob/main/Images/TotalTransactions.png)
 
 # Models Evaluation and Comparison
 
@@ -33,6 +35,9 @@ Support Vector Machines were experimented with, and the optimal hyperparameters 
 **Artificial Neural Network:**
 
 Ultimately, the Artificial Neural Network with 100 hidden layers utilizing ReLU activation, one output layer employing Sigmoid activation, 20 epochs, a batch size of 10, and the Adam optimizer surpassed all alternative models, achieving the highest ROC AUC score of 0.99.
+
+![ANN Model AUC](https://github.com/maskbit/creditcard-fraud-detection/blob/main/Images/ANNmodelAUC.png)
+
 
 
 | MODEL | Hyper Parameters |  Score |
