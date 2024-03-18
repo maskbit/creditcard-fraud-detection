@@ -8,11 +8,21 @@ Credit card fraud has become one of the most rapidly evolving financial crimes i
 The aim of this project is to construct machine learning models employing various prediction algorithms and assess their outcomes. The primary goal is to create models capable of effectively detecting fraudulent transactions and rejecting them. Utilizing machine learning algorithms such as Logistic Regression, Support Vector Machines (SVM), and Random Forest, the results will be analyzed to determine the most effective model. Additionally, an artificial neural network model will be developed and contrasted with the conventional models to evaluate its performance and accuracy.
 
 # Dataset
-The dataset for this project is sourced from IBM's synthetic credit card data. 
+
+
+
+The dataset utilized in this project is derived from IBM's synthetic credit card data, which can be accessed [here.](https://ibm.box.com/v/tabformer-data) The dataset is extensive, comprising over 22 million credit card transactions. However, for the purpose of this project, only a sample of 50,000 transactions was selected from the original dataset.
+
+
+
+
+
 
 **Exploratory data analysis:**
 
 ** Data Visualization **
+
+The chart depicted below illustrates the distribution of different types of credit card transactions sourced from the dataset. Transactions conducted in person (Chip & Swipe) outnumbered those performed online.
 
 ![Types of Transactions](https://github.com/maskbit/creditcard-fraud-detection/blob/main/Images/ChipSwipeOnlineTransactions.png)
 
