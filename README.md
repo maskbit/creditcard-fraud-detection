@@ -55,7 +55,7 @@ Support Vector Machines were experimented with, and the optimal hyperparameters 
 
 **Artificial Neural Network:**
 
-Ultimately, the Artificial Neural Network with 100 hidden layers utilizing ReLU activation, one output layer employing Sigmoid activation, 20 epochs, a batch size of 10, and the Adam optimizer surpassed all alternative models, achieving the highest ROC AUC score of 0.99.
+Ultimately, the Artificial Neural Network, featuring two hidden layers - one comprising 50 neurons and the other with 100 neurons, utilizing ReLU activation, along with one output layer employing Sigmoid activation, trained over 20 epochs with a batch size of 10, and optimized using the Adam optimizer, outperformed all other models. It attained the highest ROC AUC score of 0.99.
 
 ![ANN Model AUC](https://github.com/maskbit/creditcard-fraud-detection/blob/main/Images/ANNmodelAUC.png)
 
@@ -65,7 +65,7 @@ Ultimately, the Artificial Neural Network with 100 hidden layers utilizing ReLU 
 | Logistic Regression | C: 29.76, max_iter: 100, penalty: l2 | 0.86 |
 | Support Vector Machines | C: 0.1, degree: 0, gamma: 0.1, kernel: linear | 0.82 |
 | Random Forest | criterion: entropy, max_depth: 40, max_features: sqrt, min_samples_leaf: 2, min_samples_split: 5, n_estimators: 200 | 0.92 |
-| Artificial Neural Network | Hidden Layer(100) with Relu, Output Layer(1) with Sigmoid, epochs: 20, batch_size: 10, optimizer: adam | 0.99 |
+| Artificial Neural Network | Hidden Layer(50) with Relu, Hidden Layer(100) with Relu, Output Layer(1) with Sigmoid, epochs: 20, batch_size: 10, optimizer: adam | 0.99 |
 
 
 # Summary of Findings
