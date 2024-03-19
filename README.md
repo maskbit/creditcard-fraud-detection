@@ -67,9 +67,14 @@ Ultimately, the Artificial Neural Network with 100 hidden layers utilizing ReLU 
 | Random Forest | criterion: entropy, max_depth: 40, max_features: sqrt, min_samples_leaf: 2, min_samples_split: 5, n_estimators: 200 | 0.92 |
 | Artificial Neural Network | Hidden Layer(100) with Relu, Output Layer(1) with Sigmoid, epochs: 20, batch_size: 10, optimizer: adam | 0.99 |
 
+
 # Summary of Findings
 
 Among the conventional machine learning models, Random Forest exhibited the strongest performance with an ROC AUC score of 0.92. Nevertheless, the artificial neural network significantly outperformed it, achieving a notably higher score of 0.99. Notably, the Keras tuner wasn't employed to refine the hyperparameters, which could have potentially optimized factors such as the number of neurons, epochs, and batch size even further.
+
+# Notebook
+
+[Fraud-ML Notebook](/fraud-ml.ipynb)
 
 # Citations and References:
  
