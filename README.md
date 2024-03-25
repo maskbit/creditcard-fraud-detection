@@ -70,7 +70,7 @@ Ultimately, the Artificial Neural Network, featuring two hidden layers - one com
 
 # Summary of Findings
 
-Among the conventional machine learning models, Random Forest exhibited the strongest performance with an ROC AUC score of 0.92. Nevertheless, the artificial neural network significantly outperformed it, achieving a notably higher score of 0.99. Notably, the Keras tuner wasn't employed to refine the hyperparameters, which could have potentially optimized factors such as the number of neurons, epochs, and batch size even further.
+Among the conventional machine learning models, Random Forest exhibited the strongest performance with an ROC AUC score of 0.92. Nevertheless, the artificial neural network significantly outperformed it, achieving a notably higher score of 0.99. Notably, the Keras tuner wasn't employed to refine the hyperparameters, which could have potentially optimized factors such as the number of neurons, epochs, and batch size even further. As a subsequent action, it would be beneficial to investigate Kera's tuner for additional optimization of the neural networks model. Additionally, it's worthwhile to assess and explore alternative standard models such as XGBoost and LGB. 
 
 # Notebook
 
